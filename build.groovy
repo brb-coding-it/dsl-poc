@@ -8,7 +8,7 @@ job("dsl-build") {
     scm {
         git {
             remote {
-                url gitUrl.
+                url gitUrl
                 branch "origin/main"
             }
             extensions {
