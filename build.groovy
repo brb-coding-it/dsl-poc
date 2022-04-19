@@ -11,10 +11,6 @@ job("dsl-build") {
                 url gitUrl.
                 branch "origin/main"
             }
-            extensions {
-                wipeOutWorkspace()
-                localBranch main
-            }
         }
     }
     steps {
